@@ -126,8 +126,3 @@ class RondaMateServer():
 
 if __name__ == "__main__":
     RondaMateServer().serve()
-
-# Send client leaving information to others
-#msg = '\n(Hung up: Client from %s)' % self.get_name(irs)
-#for rsock in self.client_sockets:
-#    rsock.send(msg)
